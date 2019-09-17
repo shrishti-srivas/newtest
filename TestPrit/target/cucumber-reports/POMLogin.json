@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test login function",
+        "description": "",
+        "id": "login-functionality;test-login-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34218045100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "POMtest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2818886600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter username and password",
+            "match": {
+              "location": "POMtest.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "display login msg successfully",
+            "match": {
+              "location": "POMtest.display_login_msg_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "features/LoginPOM.Feature"
+  }
+]
